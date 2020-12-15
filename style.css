@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body.page {
+    width: 100%;
+    min-width: auto;
+    height: auto;
+    min-height: 657px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(30deg,#553c8b 60%, #fff 40%);
+}
+main.Main {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    margin-right: -90%;
+    transform: translate(-90%, -50%)
+}
+main.Main label {
+    font-weight: 400;
+}
+main.Main input {
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    margin: 7px 0;
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+main.Main input#senha {
+    margin-left: 12px;
+}
+main.Main input#entrar {
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 17px;
+    font-size: 14px;
+    padding: 7px 10px;
+    background-color:#553c8b;
+    color:#fff;
+    font-weight: 600;
+    margin: 10px 0;
+    border: 0;
+}
+main.Main input#entrar:hover {
+    background-color: rgba(85, 60, 139, 0.9);
+    color:#fff;
+    transition: background-color 0.2s;
+}
+main.Main a {
+    text-decoration: none;
+    color: #553c8b;
+}
+main .cont {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+main .image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    width: 600px;
+    height: 300px;
+    
+}
+.image img {
+    max-width: 200px;
+    width: 50px;
+    height: 50px;
+    margin-top: 25%
+}
+
+body.content {
+    background-image: url(./img/galaxy.jpg);
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+header p {
+    color: #fff;
+}
+header a {
+    background-color: #553c8b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+header a:hover{
+    background-color: rgba(85, 60, 139, 0.9);
+    color: #fff;
+    transition: background-color 0.2s;
+}
+main .row{
+    border-radius: 70px 20px;
+    cursor: pointer;
+}
+main .row#steam{
+    background-color: black; 
+}
+main .row#disc {
+    background-color: #5d71b6;
+}
+main .row#fb {
+    background-color: #3b5998;
+}
+main .row#twitch {
+    background-color: #6245a0;
+}
+main .row#tt {
+    background-color:#1DA1F2;
+}
+main .row#yt {
+    background-color: #ff1313;
+}
+
+
+
+
+
+
+
